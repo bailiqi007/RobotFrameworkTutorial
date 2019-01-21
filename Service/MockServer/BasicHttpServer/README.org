@@ -4,3 +4,14 @@
 
 - [[http://localhost:5000/json][http://localhost:5000/json]], 用于返回JSON格式数据；
 - [[http://localhost:5000/text][http://localhost:5000/text]]，用于返回纯文本格式数据。
+
+* 使用方法
+- 对于Linux/Unix/macOS用户，可执行：
+  #+BEGIN_SRC bash
+    ./BasicHttpServer
+  #+END_SRC
+
+- 对于Windows用户，可双击BasicHttpServer.exe，或者在CMD中执行：
+  #+BEGIN_SRC bash
+    BasicHttpServer.exe
+  #+END_SRC
