@@ -1,0 +1,6 @@
+* BasicHttpServer使用说明
+
+仅用来提供简易数据的模拟返回。目前仅支持以下两个接口：
+
+- http://localhost:5000/json，用于返回JSON格式数据
+- http://localhost:5000/text, 用于返回纯文本格式数据。
