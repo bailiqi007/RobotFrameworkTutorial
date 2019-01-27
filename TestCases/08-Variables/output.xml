@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.7.2 on darwin)" generated="20190127 17:06:09.459" rpa="false">
+<suite id="s1" name="Demo" source="/Users/konglingcun/Code/Python/RobotFramework/RobotFrameworkTutorial/TestCases/08-Variables/demo.robot">
+<test id="s1-t1" name="TC 01">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${NAME}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 17:06:09.493" endtime="20190127 17:06:09.493"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${FRUITS}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 17:06:09.494" endtime="20190127 17:06:09.494"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${NUMS}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 17:06:09.495" endtime="20190127 17:06:09.495"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${NAME}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 17:06:09.495" endtime="20190127 17:06:09.495"></status>
+</kw>
+<status status="PASS" starttime="20190127 17:06:09.492" endtime="20190127 17:06:09.496" critical="yes"></status>
+</test>
+<test id="s1-t2" name="TC 02">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>John</arg>
+</arguments>
+<assign>
+<var>${NAME01}</var>
+</assign>
+<msg timestamp="20190127 17:06:09.497" level="INFO">${NAME01} = John</msg>
+<status status="PASS" starttime="20190127 17:06:09.497" endtime="20190127 17:06:09.497"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${NAME01}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 17:06:09.497" endtime="20190127 17:06:09.497"></status>
+</kw>
+<status status="PASS" starttime="20190127 17:06:09.496" endtime="20190127 17:06:09.498" critical="yes"></status>
+</test>
+<test id="s1-t3" name="TC 03">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${FRUITS}[2]</arg>
+</arguments>
+<status status="PASS" starttime="20190127 17:06:09.498" endtime="20190127 17:06:09.498"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${NUMS.Shanghai}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 17:06:09.499" endtime="20190127 17:06:09.499"></status>
+</kw>
+<status status="PASS" starttime="20190127 17:06:09.498" endtime="20190127 17:06:09.499" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190127 17:06:09.461" endtime="20190127 17:06:09.500"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

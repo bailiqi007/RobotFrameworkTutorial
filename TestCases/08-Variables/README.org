@@ -1,0 +1,17 @@
+* Intro - Variable Type
+
+** An Previous Error
+- Directory vs History
+
+
+** Variables
+*** Define
+    - Define in the variable block
+    - Define in the test case
+
+[RETURN]   |   KEYWORD  |  ARGGUMENTS...
+
+*** Usage
+    - Basic usage
+    - Scope
+      -
