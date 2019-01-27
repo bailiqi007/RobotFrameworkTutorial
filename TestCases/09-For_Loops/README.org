@@ -1,0 +1,49 @@
+* Intro - FOR LOOPS
+
+** FOR xxx IN xxx
+
+#+BEGIN_SRC python
+  for i in 1,2,3,4:
+      print(i)
+#+END_SRC
+
+** FOR xxx IN @{xxx}
+
+#+BEGIN_SRC python
+  for i in [1,2,3,4]:
+      print(i)
+#+END_SRC
+
+** FOR xxx IN RANGE n
+
+#+BEGIN_SRC python
+  for i in range(10):
+      print(i)
+#+END_SRC
+
+** FOR xxx IN RANGE n m
+
+#+BEGIN_SRC python
+  for i in range(0, 10):
+      print(i)
+#+END_SRC
+
+** FOR xxx IN RANGE n m step
+
+#+BEGIN_SRC python
+  for i in range(0, 10, 2):
+      print(i)
+#+END_SRC
+
+** FOR x y IN ZIP a b
+#+BEGIN_SRC python
+  a = [1, 2, 3]
+  b = ['a', 'b', 'c']
+
+  for x, y in zip(a, b):
+      print(x, y)
+#+END_SRC
+
+** [Optional] Exit For Loop
+
+** [Optional] Continue For Loop

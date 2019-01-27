@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.7.2 on darwin)" generated="20190127 23:27:39.219" rpa="false">
+<suite id="s1" name="Demo" source="/Users/konglingcun/Code/Python/RobotFramework/RobotFrameworkTutorial/TestCases/09-For_Loops/demo.robot">
+<test id="s1-t1" name="TC 01">
+<kw name="${x} IN [ 1 | 2 | 3 | 4 ]" type="for">
+<kw name="${x} = 1" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${x}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 23:27:39.254" endtime="20190127 23:27:39.254"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.253" endtime="20190127 23:27:39.254"></status>
+</kw>
+<kw name="${x} = 2" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${x}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 23:27:39.254" endtime="20190127 23:27:39.255"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.254" endtime="20190127 23:27:39.255"></status>
+</kw>
+<kw name="${x} = 3" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${x}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 23:27:39.255" endtime="20190127 23:27:39.255"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.255" endtime="20190127 23:27:39.255"></status>
+</kw>
+<kw name="${x} = 4" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${x}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 23:27:39.255" endtime="20190127 23:27:39.256"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.255" endtime="20190127 23:27:39.256"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.253" endtime="20190127 23:27:39.256"></status>
+</kw>
+<kw name="${city} IN [ ${cities} ]" type="for">
+<kw name="${city} = ['BJ', 'SH', 'SZ', 'NY']" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${city}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 23:27:39.256" endtime="20190127 23:27:39.257"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.256" endtime="20190127 23:27:39.257"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.256" endtime="20190127 23:27:39.258"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.252" endtime="20190127 23:27:39.258" critical="yes"></status>
+</test>
+<test id="s1-t2" name="TC 02">
+<kw name="${n} IN RANGE [ 2 | 10 | 3 ]" type="for">
+<kw name="${n} = 2" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 23:27:39.260" endtime="20190127 23:27:39.260"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.259" endtime="20190127 23:27:39.260"></status>
+</kw>
+<kw name="${n} = 5" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 23:27:39.260" endtime="20190127 23:27:39.260"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.260" endtime="20190127 23:27:39.261"></status>
+</kw>
+<kw name="${n} = 8" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<status status="PASS" starttime="20190127 23:27:39.261" endtime="20190127 23:27:39.261"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.261" endtime="20190127 23:27:39.261"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.259" endtime="20190127 23:27:39.261"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.259" endtime="20190127 23:27:39.261" critical="yes"></status>
+</test>
+<test id="s1-t3" name="TC 03">
+<kw name="${x} | ${y} IN ZIP [ ${name} | ${age} ]" type="for">
+<kw name="${x} = A, ${y} = 12" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${x} is ${y} years old</arg>
+</arguments>
+<status status="PASS" starttime="20190127 23:27:39.262" endtime="20190127 23:27:39.263"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.262" endtime="20190127 23:27:39.263"></status>
+</kw>
+<kw name="${x} = B, ${y} = 22" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${x} is ${y} years old</arg>
+</arguments>
+<status status="PASS" starttime="20190127 23:27:39.263" endtime="20190127 23:27:39.263"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.263" endtime="20190127 23:27:39.264"></status>
+</kw>
+<kw name="${x} = C, ${y} = 32" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${x} is ${y} years old</arg>
+</arguments>
+<status status="PASS" starttime="20190127 23:27:39.264" endtime="20190127 23:27:39.264"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.264" endtime="20190127 23:27:39.264"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.262" endtime="20190127 23:27:39.264"></status>
+</kw>
+<status status="PASS" starttime="20190127 23:27:39.261" endtime="20190127 23:27:39.265" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190127 23:27:39.221" endtime="20190127 23:27:39.265"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
