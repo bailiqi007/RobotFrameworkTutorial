@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.7.2 on darwin)" generated="20190129 22:15:59.954" rpa="false">
+<suite id="s1" name="Demo" source="/Users/konglingcun/Code/Python/RobotFramework/RobotFrameworkTutorial/TestCases/11-VariableFile/demo.robot">
+<test id="s1-t1" name="TC 01">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${NAME}</arg>
+</arguments>
+<status status="PASS" starttime="20190129 22:15:59.988" endtime="20190129 22:15:59.988"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${AGE}</arg>
+</arguments>
+<status status="PASS" starttime="20190129 22:15:59.989" endtime="20190129 22:15:59.989"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${ADDRESS}</arg>
+</arguments>
+<status status="PASS" starttime="20190129 22:15:59.989" endtime="20190129 22:15:59.989"></status>
+</kw>
+<status status="PASS" starttime="20190129 22:15:59.988" endtime="20190129 22:15:59.989" critical="yes"></status>
+</test>
+<test id="s1-t2" name="TC 02">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Fruit}</arg>
+</arguments>
+<status status="PASS" starttime="20190129 22:15:59.990" endtime="20190129 22:15:59.990"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Price}</arg>
+</arguments>
+<status status="PASS" starttime="20190129 22:15:59.990" endtime="20190129 22:15:59.991"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Colors}</arg>
+</arguments>
+<status status="PASS" starttime="20190129 22:15:59.991" endtime="20190129 22:15:59.991"></status>
+</kw>
+<status status="PASS" starttime="20190129 22:15:59.990" endtime="20190129 22:15:59.991" critical="yes"></status>
+</test>
+<test id="s1-t3" name="TC 03">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${Android}</arg>
+</arguments>
+<status status="PASS" starttime="20190129 22:15:59.992" endtime="20190129 22:15:59.992"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${iPhone}</arg>
+</arguments>
+<status status="PASS" starttime="20190129 22:15:59.992" endtime="20190129 22:15:59.993"></status>
+</kw>
+<status status="PASS" starttime="20190129 22:15:59.992" endtime="20190129 22:15:59.993" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190129 22:15:59.956" endtime="20190129 22:15:59.993"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

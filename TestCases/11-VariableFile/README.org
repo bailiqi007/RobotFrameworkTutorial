@@ -1,0 +1,13 @@
+* Intro - Variable File
+
+** with .py suffix
+
+** with .yaml suffix
+
+** with .robot suffix
+
+RF   -   robot(资源文件)
+Resource
+
+py
+yaml   Variables

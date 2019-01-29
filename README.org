@@ -1,13 +1,13 @@
 * RobotFramework 教程
 
-** Table Of Content [5/9]
+** Table Of Content [7/9]
 - [X] 00 - Introduction & Installation
 - [X] 01 - Editors & Plugins & Hello World
 - [X] 02 - Syntax Formats
 - [X] 03 - Test Cases & Setup & Teardown
 - [X] 04 - Suite Setup & Suite Teardown
-- [ ] 05 - Arguments
-- [ ] 06 - Documentation & Tags
+- [X] 05 - Arguments
+- [X] 06 - Documentation & Tags
 - [ ] 07 - Test Templates
 - [ ] 08 - ...
 
