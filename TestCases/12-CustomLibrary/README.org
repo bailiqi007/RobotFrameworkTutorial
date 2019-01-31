@@ -49,3 +49,10 @@
      class SubMod(API):
 	 ROBOT_LIBRARY_SCOPE = 'GLOBAL'
    #+END_SRC
+
+
+** Use --pythonpath Option
+
+#+BEGIN_SRC bash
+  robot --pythonpath=<LIB_PATH> demo.robot
+#+END_SRC

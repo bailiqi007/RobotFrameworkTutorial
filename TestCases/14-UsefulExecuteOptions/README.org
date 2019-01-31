@@ -1,0 +1,10 @@
+* Intros - Useful Exec Options
+
+#+BEGIN_SRC org
+  robot
+    --pythonpath        # 指定运行库的路径，非常有用
+    --consolecolors     # 输出结果颜色的控制
+    --consolewidth      # 输出终端的宽度控制
+    --console           # 输出结果的详细程度控制
+    --outputdir [-d]    # 输出报告文件的存放路径
+#+END_SRC
