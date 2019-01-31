@@ -1,0 +1,51 @@
+* Intros - Custom Libraries
+
+** Import Library - Module
+ - Files - methods
+   #+BEGIN_SRC python
+     # Libs/funcs.py
+
+     def google_search(msg=None):
+	 return "Searching " + msg + " with google..."
+
+
+     def duckduckgo_search(msg=None):
+	 return "Searching " + msg + " with duckduckgo..."
+   #+END_SRC
+
+ - Files - classes
+   #+BEGIN_SRC python
+     # Libs/ClsWithSameName.py
+     # 尽管模块名称与类名不同是被允许的，但不建议这么做
+
+     class clsWithSameName:
+	 def create_github_repo(self, name):
+	     return "Created repo with name: " +name
+
+	 def get_github_repo(self):
+	     return "Getting repos now..."
+   #+END_SRC
+
+** Import Library - Package
+   #+BEGIN_SRC python
+     # Libs/SubMod/Cls.py
+
+     class API():
+	 def api_get(self):
+	     return "API Get Method."
+
+	 def api_post(self):
+	     return "API Post Method"
+
+	 def api_delete(self):
+	     return "API Delete Method"
+   #+END_SRC
+
+   #+BEGIN_SRC python
+     # Libs/SubMod/__init__.py
+
+     from .Cls import API
+
+     class SubMod(API):
+	 ROBOT_LIBRARY_SCOPE = 'GLOBAL'
+   #+END_SRC
