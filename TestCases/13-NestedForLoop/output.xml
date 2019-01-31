@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.7.2 on linux)" generated="20190131 14:36:28.308" rpa="false">
+<suite id="s1" name="Demo" source="/home/xuedinge/Code/Python/RobotFramework/Tutorial/TestCases/13-NestedForLoop/demo.robot">
+<test id="s1-t1" name="TC 01">
+<kw name="${i} IN RANGE [ 1 | 10 ]" type="for">
+<kw name="${i} = 1" type="foritem">
+<kw name="ForI">
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<kw name="${j} IN RANGE [ 1 | ${i} + 1 ]" type="for">
+<kw name="${j} = 1" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.333" level="INFO">${resp} = 1</msg>
+<status status="PASS" starttime="20190131 14:36:28.332" endtime="20190131 14:36:28.333"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.333" endtime="20190131 14:36:28.334"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.332" endtime="20190131 14:36:28.334"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.332" endtime="20190131 14:36:28.334"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.330" endtime="20190131 14:36:28.334"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.330" endtime="20190131 14:36:28.334"></status>
+</kw>
+<kw name="${i} = 2" type="foritem">
+<kw name="ForI">
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<kw name="${j} IN RANGE [ 1 | ${i} + 1 ]" type="for">
+<kw name="${j} = 1" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.335" level="INFO">${resp} = 2</msg>
+<status status="PASS" starttime="20190131 14:36:28.335" endtime="20190131 14:36:28.335"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.335" endtime="20190131 14:36:28.336"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.335" endtime="20190131 14:36:28.336"></status>
+</kw>
+<kw name="${j} = 2" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.336" level="INFO">${resp} = 4</msg>
+<status status="PASS" starttime="20190131 14:36:28.336" endtime="20190131 14:36:28.336"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.336" endtime="20190131 14:36:28.337"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.336" endtime="20190131 14:36:28.337"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.335" endtime="20190131 14:36:28.337"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.334" endtime="20190131 14:36:28.337"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.334" endtime="20190131 14:36:28.337"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="ForI">
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<kw name="${j} IN RANGE [ 1 | ${i} + 1 ]" type="for">
+<kw name="${j} = 1" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.338" level="INFO">${resp} = 3</msg>
+<status status="PASS" starttime="20190131 14:36:28.338" endtime="20190131 14:36:28.338"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.338" endtime="20190131 14:36:28.339"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.338" endtime="20190131 14:36:28.339"></status>
+</kw>
+<kw name="${j} = 2" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.339" level="INFO">${resp} = 6</msg>
+<status status="PASS" starttime="20190131 14:36:28.339" endtime="20190131 14:36:28.339"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.339" endtime="20190131 14:36:28.340"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.339" endtime="20190131 14:36:28.340"></status>
+</kw>
+<kw name="${j} = 3" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.340" level="INFO">${resp} = 9</msg>
+<status status="PASS" starttime="20190131 14:36:28.340" endtime="20190131 14:36:28.340"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.340" endtime="20190131 14:36:28.341"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.340" endtime="20190131 14:36:28.341"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.337" endtime="20190131 14:36:28.341"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.337" endtime="20190131 14:36:28.341"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.337" endtime="20190131 14:36:28.341"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="ForI">
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<kw name="${j} IN RANGE [ 1 | ${i} + 1 ]" type="for">
+<kw name="${j} = 1" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.342" level="INFO">${resp} = 4</msg>
+<status status="PASS" starttime="20190131 14:36:28.342" endtime="20190131 14:36:28.342"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.343" endtime="20190131 14:36:28.345"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.342" endtime="20190131 14:36:28.345"></status>
+</kw>
+<kw name="${j} = 2" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.346" level="INFO">${resp} = 8</msg>
+<status status="PASS" starttime="20190131 14:36:28.346" endtime="20190131 14:36:28.346"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.346" endtime="20190131 14:36:28.347"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.345" endtime="20190131 14:36:28.347"></status>
+</kw>
+<kw name="${j} = 3" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.347" level="INFO">${resp} = 12</msg>
+<status status="PASS" starttime="20190131 14:36:28.347" endtime="20190131 14:36:28.347"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.347" endtime="20190131 14:36:28.349"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.347" endtime="20190131 14:36:28.349"></status>
+</kw>
+<kw name="${j} = 4" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.351" level="INFO">${resp} = 16</msg>
+<status status="PASS" starttime="20190131 14:36:28.350" endtime="20190131 14:36:28.351"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.351" endtime="20190131 14:36:28.351"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.350" endtime="20190131 14:36:28.351"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.342" endtime="20190131 14:36:28.351"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.341" endtime="20190131 14:36:28.351"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.341" endtime="20190131 14:36:28.351"></status>
+</kw>
+<kw name="${i} = 5" type="foritem">
+<kw name="ForI">
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<kw name="${j} IN RANGE [ 1 | ${i} + 1 ]" type="for">
+<kw name="${j} = 1" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.352" level="INFO">${resp} = 5</msg>
+<status status="PASS" starttime="20190131 14:36:28.352" endtime="20190131 14:36:28.352"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.352" endtime="20190131 14:36:28.353"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.352" endtime="20190131 14:36:28.353"></status>
+</kw>
+<kw name="${j} = 2" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.353" level="INFO">${resp} = 10</msg>
+<status status="PASS" starttime="20190131 14:36:28.353" endtime="20190131 14:36:28.353"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.353" endtime="20190131 14:36:28.354"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.353" endtime="20190131 14:36:28.354"></status>
+</kw>
+<kw name="${j} = 3" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.354" level="INFO">${resp} = 15</msg>
+<status status="PASS" starttime="20190131 14:36:28.354" endtime="20190131 14:36:28.354"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.354" endtime="20190131 14:36:28.355"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.354" endtime="20190131 14:36:28.355"></status>
+</kw>
+<kw name="${j} = 4" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.355" level="INFO">${resp} = 20</msg>
+<status status="PASS" starttime="20190131 14:36:28.355" endtime="20190131 14:36:28.355"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.356" endtime="20190131 14:36:28.356"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.355" endtime="20190131 14:36:28.356"></status>
+</kw>
+<kw name="${j} = 5" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.357" level="INFO">${resp} = 25</msg>
+<status status="PASS" starttime="20190131 14:36:28.356" endtime="20190131 14:36:28.357"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.357" endtime="20190131 14:36:28.357"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.356" endtime="20190131 14:36:28.357"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.352" endtime="20190131 14:36:28.357"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.352" endtime="20190131 14:36:28.357"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.352" endtime="20190131 14:36:28.358"></status>
+</kw>
+<kw name="${i} = 6" type="foritem">
+<kw name="ForI">
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<kw name="${j} IN RANGE [ 1 | ${i} + 1 ]" type="for">
+<kw name="${j} = 1" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.359" level="INFO">${resp} = 6</msg>
+<status status="PASS" starttime="20190131 14:36:28.359" endtime="20190131 14:36:28.359"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.360" endtime="20190131 14:36:28.360"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.359" endtime="20190131 14:36:28.360"></status>
+</kw>
+<kw name="${j} = 2" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.361" level="INFO">${resp} = 12</msg>
+<status status="PASS" starttime="20190131 14:36:28.360" endtime="20190131 14:36:28.361"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.361" endtime="20190131 14:36:28.361"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.360" endtime="20190131 14:36:28.361"></status>
+</kw>
+<kw name="${j} = 3" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.362" level="INFO">${resp} = 18</msg>
+<status status="PASS" starttime="20190131 14:36:28.362" endtime="20190131 14:36:28.362"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.362" endtime="20190131 14:36:28.363"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.361" endtime="20190131 14:36:28.363"></status>
+</kw>
+<kw name="${j} = 4" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.363" level="INFO">${resp} = 24</msg>
+<status status="PASS" starttime="20190131 14:36:28.363" endtime="20190131 14:36:28.363"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.364" endtime="20190131 14:36:28.364"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.363" endtime="20190131 14:36:28.364"></status>
+</kw>
+<kw name="${j} = 5" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.364" level="INFO">${resp} = 30</msg>
+<status status="PASS" starttime="20190131 14:36:28.364" endtime="20190131 14:36:28.364"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.365" endtime="20190131 14:36:28.365"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.364" endtime="20190131 14:36:28.365"></status>
+</kw>
+<kw name="${j} = 6" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.366" level="INFO">${resp} = 36</msg>
+<status status="PASS" starttime="20190131 14:36:28.365" endtime="20190131 14:36:28.366"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.366" endtime="20190131 14:36:28.366"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.365" endtime="20190131 14:36:28.366"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.358" endtime="20190131 14:36:28.366"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.358" endtime="20190131 14:36:28.366"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.358" endtime="20190131 14:36:28.367"></status>
+</kw>
+<kw name="${i} = 7" type="foritem">
+<kw name="ForI">
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<kw name="${j} IN RANGE [ 1 | ${i} + 1 ]" type="for">
+<kw name="${j} = 1" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.368" level="INFO">${resp} = 7</msg>
+<status status="PASS" starttime="20190131 14:36:28.367" endtime="20190131 14:36:28.368"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.368" endtime="20190131 14:36:28.369"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.367" endtime="20190131 14:36:28.370"></status>
+</kw>
+<kw name="${j} = 2" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.371" level="INFO">${resp} = 14</msg>
+<status status="PASS" starttime="20190131 14:36:28.370" endtime="20190131 14:36:28.371"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.371" endtime="20190131 14:36:28.372"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.370" endtime="20190131 14:36:28.372"></status>
+</kw>
+<kw name="${j} = 3" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.372" level="INFO">${resp} = 21</msg>
+<status status="PASS" starttime="20190131 14:36:28.372" endtime="20190131 14:36:28.372"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.372" endtime="20190131 14:36:28.373"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.372" endtime="20190131 14:36:28.373"></status>
+</kw>
+<kw name="${j} = 4" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.373" level="INFO">${resp} = 28</msg>
+<status status="PASS" starttime="20190131 14:36:28.373" endtime="20190131 14:36:28.373"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.373" endtime="20190131 14:36:28.374"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.373" endtime="20190131 14:36:28.374"></status>
+</kw>
+<kw name="${j} = 5" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.374" level="INFO">${resp} = 35</msg>
+<status status="PASS" starttime="20190131 14:36:28.374" endtime="20190131 14:36:28.374"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.375" endtime="20190131 14:36:28.375"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.374" endtime="20190131 14:36:28.375"></status>
+</kw>
+<kw name="${j} = 6" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.375" level="INFO">${resp} = 42</msg>
+<status status="PASS" starttime="20190131 14:36:28.375" endtime="20190131 14:36:28.376"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.376" endtime="20190131 14:36:28.376"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.375" endtime="20190131 14:36:28.376"></status>
+</kw>
+<kw name="${j} = 7" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.376" level="INFO">${resp} = 49</msg>
+<status status="PASS" starttime="20190131 14:36:28.376" endtime="20190131 14:36:28.376"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.377" endtime="20190131 14:36:28.377"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.376" endtime="20190131 14:36:28.377"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.367" endtime="20190131 14:36:28.377"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.367" endtime="20190131 14:36:28.378"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.367" endtime="20190131 14:36:28.378"></status>
+</kw>
+<kw name="${i} = 8" type="foritem">
+<kw name="ForI">
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<kw name="${j} IN RANGE [ 1 | ${i} + 1 ]" type="for">
+<kw name="${j} = 1" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.380" level="INFO">${resp} = 8</msg>
+<status status="PASS" starttime="20190131 14:36:28.379" endtime="20190131 14:36:28.380"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.380" endtime="20190131 14:36:28.381"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.379" endtime="20190131 14:36:28.381"></status>
+</kw>
+<kw name="${j} = 2" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.381" level="INFO">${resp} = 16</msg>
+<status status="PASS" starttime="20190131 14:36:28.381" endtime="20190131 14:36:28.381"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.382" endtime="20190131 14:36:28.383"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.381" endtime="20190131 14:36:28.383"></status>
+</kw>
+<kw name="${j} = 3" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.384" level="INFO">${resp} = 24</msg>
+<status status="PASS" starttime="20190131 14:36:28.383" endtime="20190131 14:36:28.384"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.384" endtime="20190131 14:36:28.385"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.383" endtime="20190131 14:36:28.385"></status>
+</kw>
+<kw name="${j} = 4" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.385" level="INFO">${resp} = 32</msg>
+<status status="PASS" starttime="20190131 14:36:28.385" endtime="20190131 14:36:28.385"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.385" endtime="20190131 14:36:28.387"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.385" endtime="20190131 14:36:28.387"></status>
+</kw>
+<kw name="${j} = 5" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.388" level="INFO">${resp} = 40</msg>
+<status status="PASS" starttime="20190131 14:36:28.387" endtime="20190131 14:36:28.388"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.388" endtime="20190131 14:36:28.389"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.387" endtime="20190131 14:36:28.389"></status>
+</kw>
+<kw name="${j} = 6" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.390" level="INFO">${resp} = 48</msg>
+<status status="PASS" starttime="20190131 14:36:28.389" endtime="20190131 14:36:28.390"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.390" endtime="20190131 14:36:28.391"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.389" endtime="20190131 14:36:28.391"></status>
+</kw>
+<kw name="${j} = 7" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.392" level="INFO">${resp} = 56</msg>
+<status status="PASS" starttime="20190131 14:36:28.391" endtime="20190131 14:36:28.392"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.392" endtime="20190131 14:36:28.392"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.391" endtime="20190131 14:36:28.392"></status>
+</kw>
+<kw name="${j} = 8" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.393" level="INFO">${resp} = 64</msg>
+<status status="PASS" starttime="20190131 14:36:28.392" endtime="20190131 14:36:28.393"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.393" endtime="20190131 14:36:28.393"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.392" endtime="20190131 14:36:28.393"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.378" endtime="20190131 14:36:28.393"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.378" endtime="20190131 14:36:28.394"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.378" endtime="20190131 14:36:28.394"></status>
+</kw>
+<kw name="${i} = 9" type="foritem">
+<kw name="ForI">
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<kw name="${j} IN RANGE [ 1 | ${i} + 1 ]" type="for">
+<kw name="${j} = 1" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.394" level="INFO">${resp} = 9</msg>
+<status status="PASS" starttime="20190131 14:36:28.394" endtime="20190131 14:36:28.394"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.395" endtime="20190131 14:36:28.395"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.394" endtime="20190131 14:36:28.395"></status>
+</kw>
+<kw name="${j} = 2" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.396" level="INFO">${resp} = 18</msg>
+<status status="PASS" starttime="20190131 14:36:28.395" endtime="20190131 14:36:28.396"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.396" endtime="20190131 14:36:28.396"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.395" endtime="20190131 14:36:28.396"></status>
+</kw>
+<kw name="${j} = 3" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.397" level="INFO">${resp} = 27</msg>
+<status status="PASS" starttime="20190131 14:36:28.397" endtime="20190131 14:36:28.397"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.397" endtime="20190131 14:36:28.397"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.396" endtime="20190131 14:36:28.397"></status>
+</kw>
+<kw name="${j} = 4" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.398" level="INFO">${resp} = 36</msg>
+<status status="PASS" starttime="20190131 14:36:28.398" endtime="20190131 14:36:28.398"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.398" endtime="20190131 14:36:28.400"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.398" endtime="20190131 14:36:28.400"></status>
+</kw>
+<kw name="${j} = 5" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.401" level="INFO">${resp} = 45</msg>
+<status status="PASS" starttime="20190131 14:36:28.401" endtime="20190131 14:36:28.401"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.401" endtime="20190131 14:36:28.402"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.401" endtime="20190131 14:36:28.402"></status>
+</kw>
+<kw name="${j} = 6" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.402" level="INFO">${resp} = 54</msg>
+<status status="PASS" starttime="20190131 14:36:28.402" endtime="20190131 14:36:28.402"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.402" endtime="20190131 14:36:28.404"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.402" endtime="20190131 14:36:28.404"></status>
+</kw>
+<kw name="${j} = 7" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.404" level="INFO">${resp} = 63</msg>
+<status status="PASS" starttime="20190131 14:36:28.404" endtime="20190131 14:36:28.404"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.404" endtime="20190131 14:36:28.405"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.404" endtime="20190131 14:36:28.405"></status>
+</kw>
+<kw name="${j} = 8" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.405" level="INFO">${resp} = 72</msg>
+<status status="PASS" starttime="20190131 14:36:28.405" endtime="20190131 14:36:28.405"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.405" endtime="20190131 14:36:28.406"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.405" endtime="20190131 14:36:28.406"></status>
+</kw>
+<kw name="${j} = 9" type="foritem">
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${i} * ${j}</arg>
+</arguments>
+<assign>
+<var>${resp}</var>
+</assign>
+<msg timestamp="20190131 14:36:28.406" level="INFO">${resp} = 81</msg>
+<status status="PASS" starttime="20190131 14:36:28.406" endtime="20190131 14:36:28.406"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i} * ${j} = ${resp}</arg>
+</arguments>
+<status status="PASS" starttime="20190131 14:36:28.406" endtime="20190131 14:36:28.407"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.406" endtime="20190131 14:36:28.407"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.394" endtime="20190131 14:36:28.407"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.394" endtime="20190131 14:36:28.407"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.394" endtime="20190131 14:36:28.407"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.329" endtime="20190131 14:36:28.407"></status>
+</kw>
+<status status="PASS" starttime="20190131 14:36:28.328" endtime="20190131 14:36:28.408" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190131 14:36:28.308" endtime="20190131 14:36:28.408"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
