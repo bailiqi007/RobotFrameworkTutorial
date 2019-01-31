@@ -1,6 +1,6 @@
 * RobotFramework 教程
 
-** Table Of Content [7/9]
+** Table Of Content [15/15]
 - [X] 00 - Introduction & Installation
 - [X] 01 - Editors & Plugins & Hello World
 - [X] 02 - Syntax Formats
@@ -8,7 +8,13 @@
 - [X] 04 - Suite Setup & Suite Teardown
 - [X] 05 - Arguments
 - [X] 06 - Documentation & Tags
-- [ ] 07 - Test Templates
-- [ ] 08 - ...
+- [X] 07 - Test Templates
+- [X] 08 - Variables
+- [X] 09 - For_Loops
+- [X] 10 - IfCondition
+- [X] 11 - VariableFile
+- [X] 12 - CustomLibrary
+- [X] 13 - NestedForLoop
+- [X] 14 - UsefulExecuteOptions
 
-The table of content is in continuous update ...
+This tutorial is finished.
